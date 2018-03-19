@@ -1,0 +1,3 @@
+#define SECRET_SSID "BTHub6-H26Q"
+#define SECRET_PASS "UM7EYRVGfm7H"
+
