@@ -25,7 +25,7 @@ SECRET_KEY = '5&ufvqlnd$f@fhov0^z(k0hlxyo((yuo_-ir9(vxr9+h^s$9c('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['greenhack.pythonanywhere.com','198.211.99.20', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['intruder.pythonanywhere.com','198.211.99.20', 'localhost', '127.0.0.1']
 
 
 # Application definition
