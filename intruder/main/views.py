@@ -16,13 +16,10 @@ def send_data(request):
     m = Motion(new_state = new_state, time = timezone.now())
     m.save()
 
-    if (new_state)
-    send_mail(
-    'Motion Detected',
-    'Motion Detected!',
-    'testapp545545',
-    ['anik545@gmail.com'],
-    fail_silently=False)
+    if (new_state):
+        send_mail('Motion Detected', 'Motion Detected!', 
+            'testapp545545', ['anik545@gmail.com'],
+            fail_silently=False)
 
 
     return HttpResponse(status=200)
